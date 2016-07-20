@@ -18,7 +18,7 @@ function selectProfile() {
     for (var i = 0; i < profiles.length; i++) {
 
 
-        if (profiles[i].income >= 100000 && profiles[i].profession == "Business") {
+        if (profiles[i].income >= 100000 || profiles[i].profession == "Business") {
             console.log(profiles[i]);
         }
     }
