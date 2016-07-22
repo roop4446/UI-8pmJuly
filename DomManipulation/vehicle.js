@@ -117,7 +117,6 @@ function buildOptionTag(value, text, control) {
     control.appendChild(option);
 }
 
-
 function initPage() {
     loadYears();
     bindEvents();
